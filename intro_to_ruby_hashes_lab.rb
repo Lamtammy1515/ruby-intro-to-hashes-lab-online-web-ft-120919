@@ -1,13 +1,10 @@
 def new_hash
-new_hash = {}
+
 
 end
 
-require 'pry'
 def actor
-actor= {
-  :name=>"Dwayne The Rock Johnson"
-}
+
 end
 
 def monopoly
