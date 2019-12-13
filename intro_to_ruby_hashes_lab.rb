@@ -2,6 +2,7 @@ def new_hash
 
 end
 
+require 'pry'
 def actor
 
 end
@@ -9,7 +10,7 @@ end
 def monopoly
 	monopoly = {
 	  :railroads=>
-  {
+    {
     :pieces=>4,
     :rent_in_dollars=>
     {
@@ -18,24 +19,25 @@ def monopoly
       :three_pieces_owned=>100,
       :four_pieces_owned=>200
     },
+    
     :names=>
     {
       :reading_railroad=>
-      {
+    {
         "mortgage_value"=>"$100"
-      },
+    },
       :pennsylvania_railroad=>
-      {
+    {
         "mortgage_value"=>"$200"
-      },
+    },
       :b_and_o_railroad=>
-      {
+    {
         "mortgage_value"=>"$400"
-      },
+    },
       :shortline=>
-      {
+    {
         "mortgage_value"=>"$800"
-      }
+    }
     }
   }
 }
